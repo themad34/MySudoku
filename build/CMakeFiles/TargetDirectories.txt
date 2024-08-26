@@ -1,0 +1,4 @@
+/home/marc-antoine/C++/MySudoku/build/CMakeFiles/SudokuApp.dir
+/home/marc-antoine/C++/MySudoku/build/CMakeFiles/edit_cache.dir
+/home/marc-antoine/C++/MySudoku/build/CMakeFiles/rebuild_cache.dir
+/home/marc-antoine/C++/MySudoku/build/CMakeFiles/SudokuApp_autogen.dir
