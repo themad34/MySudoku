@@ -561,9 +561,9 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/marc-antoine/C++/MySudoku/mainwindow.h",
+			"/home/marc-antoine/C++/MySudoku/mainmenu.h",
 			"Mu",
-			"EWIEGA46WW/moc_mainwindow.cpp",
+			"EWIEGA46WW/moc_mainmenu.cpp",
 			null
 		],
 		[
@@ -659,7 +659,7 @@
 	"SOURCES" : 
 	[
 		[ "/home/marc-antoine/C++/MySudoku/main.cpp", "Mu", null ],
-		[ "/home/marc-antoine/C++/MySudoku/mainwindow.cpp", "Mu", null ],
+		[ "/home/marc-antoine/C++/MySudoku/mainmenu.cpp", "Mu", null ],
 		[ "/home/marc-antoine/C++/MySudoku/sudokuboard.cpp", "Mu", null ],
 		[ "/home/marc-antoine/C++/MySudoku/sudokucell.cpp", "Mu", null ]
 	],

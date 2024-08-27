@@ -24,7 +24,7 @@ class SudokuBoard : public QWidget {
     Q_OBJECT
 
 public:
-    SudokuBoard(QWidget *parent = nullptr);
+    SudokuBoard(int size = 9, int fillPercentage = 80);
     bool isValid(SudokuCell *cell) const;
     void updateBoard() const;
     void checker();

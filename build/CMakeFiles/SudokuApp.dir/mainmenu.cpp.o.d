@@ -1,7 +1,8 @@
-CMakeFiles/SudokuApp.dir/main.cpp.o: \
- /home/marc-antoine/C++/MySudoku/main.cpp /usr/include/stdc-predef.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QApplication \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qapplication.h \
+CMakeFiles/SudokuApp.dir/mainmenu.cpp.o: \
+ /home/marc-antoine/C++/MySudoku/mainmenu.cpp /usr/include/stdc-predef.h \
+ /home/marc-antoine/C++/MySudoku/mainmenu.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QWidget \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qwidget.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtguiglobal.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qglobal.h \
@@ -159,61 +160,37 @@ CMakeFiles/SudokuApp.dir/main.cpp.o: \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtguiexports.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcoreapplication.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qstring.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qchar.h \
- /usr/include/c++/11/functional /usr/include/c++/11/bits/stl_function.h \
- /usr/include/c++/11/backward/binders.h \
- /usr/include/c++/11/bits/refwrap.h \
- /usr/include/c++/11/bits/std_function.h \
- /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/allocator.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qwindowdefs.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qobjectdefs.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qnamespace.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qtmetamacros.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
+ /usr/include/c++/11/memory /usr/include/c++/11/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
  /usr/include/c++/11/ext/new_allocator.h \
  /usr/include/c++/11/bits/memoryfwd.h \
+ /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/ext/alloc_traits.h \
  /usr/include/c++/11/bits/alloc_traits.h \
- /usr/include/c++/11/bits/hashtable.h \
- /usr/include/c++/11/bits/hashtable_policy.h \
- /usr/include/c++/11/bits/node_handle.h \
- /usr/include/c++/11/bits/unordered_map.h \
- /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/stl_uninitialized.h \
- /usr/include/c++/11/bits/stl_vector.h \
- /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/bits/stl_algo.h \
- /usr/include/c++/11/cstdlib /usr/include/c++/11/bits/algorithmfwd.h \
- /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
- /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qstringview.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qbytearray.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qrefcount.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qnamespace.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qtmetamacros.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qarraydata.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qpair.h \
- /usr/include/string.h /usr/include/strings.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qarraydatapointer.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qarraydataops.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcontainertools_impl.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qxptype_traits.h \
- /usr/include/c++/11/cstring /usr/include/c++/11/iterator \
- /usr/include/c++/11/iosfwd /usr/include/c++/11/bits/stringfwd.h \
- /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar \
- /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+ /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
+ /usr/include/c++/11/bits/unique_ptr.h \
+ /usr/include/c++/11/bits/stl_function.h \
+ /usr/include/c++/11/backward/binders.h \
+ /usr/include/c++/11/bits/shared_ptr.h /usr/include/c++/11/iosfwd \
+ /usr/include/c++/11/bits/stringfwd.h /usr/include/c++/11/bits/postypes.h \
+ /usr/include/c++/11/cwchar /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/c++/11/bits/stream_iterator.h \
- /usr/include/c++/11/bits/streambuf_iterator.h \
- /usr/include/c++/11/streambuf /usr/include/c++/11/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
- /usr/include/c++/11/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/cctype \
- /usr/include/ctype.h /usr/include/c++/11/bits/ios_base.h \
- /usr/include/c++/11/ext/atomicity.h \
+ /usr/include/c++/11/bits/shared_ptr_base.h \
+ /usr/include/c++/11/bits/allocated_ptr.h \
+ /usr/include/c++/11/bits/refwrap.h /usr/include/c++/11/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h \
@@ -229,6 +206,44 @@ CMakeFiles/SudokuApp.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/11/ext/concurrence.h \
+ /usr/include/c++/11/bits/shared_ptr_atomic.h \
+ /usr/include/c++/11/backward/auto_ptr.h \
+ /usr/include/c++/11/pstl/glue_memory_defs.h \
+ /usr/include/c++/11/pstl/execution_defs.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qobject.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qstring.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qchar.h \
+ /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
+ /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
+ /usr/include/c++/11/bits/hashtable_policy.h \
+ /usr/include/c++/11/bits/node_handle.h \
+ /usr/include/c++/11/bits/unordered_map.h \
+ /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/vector \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/bits/stl_algo.h \
+ /usr/include/c++/11/cstdlib /usr/include/c++/11/bits/algorithmfwd.h \
+ /usr/include/c++/11/bits/stl_heap.h \
+ /usr/include/c++/11/bits/uniform_int_dist.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qstringview.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qbytearray.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qrefcount.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qarraydata.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qpair.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qarraydatapointer.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qarraydataops.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qxptype_traits.h \
+ /usr/include/c++/11/cstring /usr/include/c++/11/iterator \
+ /usr/include/c++/11/bits/stream_iterator.h \
+ /usr/include/c++/11/bits/streambuf_iterator.h \
+ /usr/include/c++/11/streambuf /usr/include/c++/11/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+ /usr/include/c++/11/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/cctype \
+ /usr/include/ctype.h /usr/include/c++/11/bits/ios_base.h \
  /usr/include/c++/11/bits/locale_classes.h /usr/include/c++/11/string \
  /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/bits/ostream_insert.h \
@@ -252,18 +267,7 @@ CMakeFiles/SudokuApp.dir/main.cpp.o: \
  /usr/include/c++/11/system_error \
  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
  /usr/include/c++/11/stdexcept /usr/include/c++/11/bits/streambuf.tcc \
- /usr/include/c++/11/memory \
- /usr/include/c++/11/bits/stl_raw_storage_iter.h \
- /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
- /usr/include/c++/11/bits/unique_ptr.h \
- /usr/include/c++/11/bits/shared_ptr.h \
- /usr/include/c++/11/bits/shared_ptr_base.h \
- /usr/include/c++/11/bits/allocated_ptr.h \
- /usr/include/c++/11/ext/concurrence.h \
- /usr/include/c++/11/bits/shared_ptr_atomic.h \
- /usr/include/c++/11/backward/auto_ptr.h \
- /usr/include/c++/11/pstl/glue_memory_defs.h \
- /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/algorithm \
+ /usr/include/c++/11/algorithm \
  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/q20functional.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/q20memory.h \
@@ -281,26 +285,23 @@ CMakeFiles/SudokuApp.dir/main.cpp.o: \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qstringbuilder.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qstringconverter.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qstringconverter_base.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcoreevent.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qobjectdefs.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qdeadlinetimer.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qelapsedtimer.h \
- /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
- /usr/include/c++/11/ctime \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qlist.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qhashfunctions.h \
+ /usr/include/c++/11/numeric /usr/include/c++/11/bits/stl_numeric.h \
+ /usr/include/c++/11/pstl/glue_numeric_defs.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qiterator.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qbytearraylist.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qstringlist.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qalgorithms.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qstringmatcher.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qscopedpointer.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qmetatype.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcompare.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcomparehelpers.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qdatastream.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qscopedpointer.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qiodevicebase.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qfloat16.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qhashfunctions.h \
- /usr/include/c++/11/numeric /usr/include/c++/11/bits/stl_numeric.h \
- /usr/include/c++/11/pstl/glue_numeric_defs.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qmath.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qalgorithms.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qiterable.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qmetacontainer.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcontainerinfo.h \
@@ -310,20 +311,23 @@ CMakeFiles/SudokuApp.dir/main.cpp.o: \
  /usr/include/c++/11/bits/list.tcc /usr/include/c++/11/map \
  /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qeventloop.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qobject.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qlist.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qiterator.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qbytearraylist.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qstringlist.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qstringmatcher.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qobject_impl.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qbindingstorage.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qnativeinterface.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qdebug.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qtextstream.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcontiguouscache.h \
- /usr/include/c++/11/climits \
+ /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
+ /usr/include/c++/11/ctime \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qmargins.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/q23utility.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qaction.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qkeysequence.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qicon.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qsize.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qpixmap.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qpaintdevice.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qrect.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qpoint.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qcolor.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qrgb.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qrgba64.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -332,45 +336,25 @@ CMakeFiles/SudokuApp.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qsharedpointer.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qshareddata.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qmap.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qshareddata_impl.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qset.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qhash.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qvarlengtharray.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qwindowdefs.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qpoint.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/q23utility.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qsize.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qmargins.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qcursor.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qbitmap.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qpixmap.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qpaintdevice.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qrect.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qcolor.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qrgb.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qrgba64.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qimage.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qpixelformat.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtransform.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qpolygon.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qregion.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qline.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qguiapplication.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qinputmethod.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qlocale.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qvariant.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qguiapplication_platform.h \
- /home/marc-antoine/C++/MySudoku/mainmenu.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QWidget \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qwidget.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qaction.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qkeysequence.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qicon.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qdebug.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qtextstream.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcontiguouscache.h \
+ /usr/include/c++/11/climits \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qsharedpointer.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qmap.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qshareddata_impl.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qset.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qhash.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qvarlengtharray.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qpalette.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qbrush.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qfont.h \
@@ -378,6 +362,8 @@ CMakeFiles/SudokuApp.dir/main.cpp.o: \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qfontmetrics.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qfontinfo.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qsizepolicy.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qcursor.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qbitmap.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QPushButton \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qpushbutton.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractbutton.h \
@@ -392,6 +378,7 @@ CMakeFiles/SudokuApp.dir/main.cpp.o: \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qcombobox.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qstyleoption.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qlocale.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractspinbox.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qvalidator.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qregularexpression.h \
@@ -689,6 +676,7 @@ CMakeFiles/SudokuApp.dir/main.cpp.o: \
  /home/marc-antoine/C++/MySudoku/sudokucell.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/QKeyEvent \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qevent.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcoreevent.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qiodevice.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qeventpoint.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qvector2d.h \
@@ -707,6 +695,15 @@ CMakeFiles/SudokuApp.dir/main.cpp.o: \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/QSizeF \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/QTransform \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtransform.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qnativeinterface.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qscreen_platform.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qguiapplication.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcoreapplication.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qdeadlinetimer.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qelapsedtimer.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qeventloop.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qinputmethod.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qguiapplication_platform.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/QEvent \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcoreevent.h

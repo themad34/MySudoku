@@ -1,10 +1,10 @@
 CMakeFiles/SudokuApp.dir/SudokuApp_autogen/mocs_compilation.cpp.o: \
  /home/marc-antoine/C++/MySudoku/build/SudokuApp_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/marc-antoine/C++/MySudoku/build/SudokuApp_autogen/EWIEGA46WW/moc_mainwindow.cpp \
- /home/marc-antoine/C++/MySudoku/build/SudokuApp_autogen/EWIEGA46WW/../../../mainwindow.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QMainWindow \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qmainwindow.h \
+ /home/marc-antoine/C++/MySudoku/build/SudokuApp_autogen/EWIEGA46WW/moc_mainmenu.cpp \
+ /home/marc-antoine/C++/MySudoku/build/SudokuApp_autogen/EWIEGA46WW/../../../mainmenu.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QWidget \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qwidget.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtguiglobal.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qglobal.h \
@@ -162,7 +162,6 @@ CMakeFiles/SudokuApp.dir/SudokuApp_autogen/mocs_compilation.cpp.o: \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtguiexports.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qwidget.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qwindowdefs.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qobjectdefs.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qnamespace.h \
@@ -367,19 +366,39 @@ CMakeFiles/SudokuApp.dir/SudokuApp_autogen/mocs_compilation.cpp.o: \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qsizepolicy.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qcursor.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qbitmap.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtabwidget.h \
- /home/marc-antoine/C++/MySudoku/build/SudokuApp_autogen/EWIEGA46WW/../../../sudokuboard.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QWidget \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QPushButton \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qpushbutton.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractbutton.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qwidget.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QGridLayout \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qgridlayout.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QVBoxLayout \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qboxlayout.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qlayout.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qlayoutitem.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qboxlayout.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qgridlayout.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QComboBox \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qcombobox.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qstyleoption.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qlocale.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractspinbox.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qvalidator.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qregularexpression.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qslider.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractslider.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qstyle.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtabbar.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtabwidget.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qrubberband.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qframe.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qabstractitemmodel.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QSpinBox \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qspinbox.h \
+ /home/marc-antoine/C++/MySudoku/build/SudokuApp_autogen/EWIEGA46WW/../../../sudokuboard.h \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QGridLayout \
+ /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qgridlayout.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QLineEdit \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qlineedit.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qframe.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtextcursor.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtextdocument.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qurl.h \
@@ -390,8 +409,6 @@ CMakeFiles/SudokuApp.dir/SudokuApp_autogen/mocs_compilation.cpp.o: \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qvector.h \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/QIntValidator \
  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qvalidator.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qregularexpression.h \
- /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qlocale.h \
  /home/marc-antoine/Libraries/or-tools/include/ortools/sat/cp_model.h \
  /usr/include/c++/11/ostream /usr/include/c++/11/ios \
  /usr/include/c++/11/bits/basic_ios.h \

@@ -3,10 +3,10 @@
 
 CMakeFiles/SudokuApp.dir/SudokuApp_autogen/mocs_compilation.cpp.o: SudokuApp_autogen/mocs_compilation.cpp \
   /usr/include/stdc-predef.h \
-  SudokuApp_autogen/EWIEGA46WW/moc_mainwindow.cpp \
-  ../mainwindow.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QMainWindow \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qmainwindow.h \
+  SudokuApp_autogen/EWIEGA46WW/moc_mainmenu.cpp \
+  ../mainmenu.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QWidget \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qwidget.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtguiglobal.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qglobal.h \
@@ -184,7 +184,6 @@ CMakeFiles/SudokuApp.dir/SudokuApp_autogen/mocs_compilation.cpp.o: SudokuApp_aut
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtguiexports.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qwidget.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qwindowdefs.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qobjectdefs.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qnamespace.h \
@@ -422,19 +421,39 @@ CMakeFiles/SudokuApp.dir/SudokuApp_autogen/mocs_compilation.cpp.o: SudokuApp_aut
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qsizepolicy.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qcursor.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qbitmap.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtabwidget.h \
-  ../sudokuboard.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QWidget \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QPushButton \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qpushbutton.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractbutton.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qwidget.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QGridLayout \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qgridlayout.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QVBoxLayout \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qboxlayout.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qlayout.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qlayoutitem.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qboxlayout.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qgridlayout.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QComboBox \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qcombobox.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qstyleoption.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qlocale.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractspinbox.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qvalidator.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qregularexpression.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qslider.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractslider.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qstyle.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtabbar.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtabwidget.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qrubberband.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qframe.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qabstractitemmodel.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QSpinBox \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qspinbox.h \
+  ../sudokuboard.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QGridLayout \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qgridlayout.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QLineEdit \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qlineedit.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qframe.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtextcursor.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtextdocument.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qurl.h \
@@ -445,8 +464,6 @@ CMakeFiles/SudokuApp.dir/SudokuApp_autogen/mocs_compilation.cpp.o: SudokuApp_aut
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qvector.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/QIntValidator \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qvalidator.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qregularexpression.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qlocale.h \
   /home/marc-antoine/Libraries/or-tools/include/ortools/sat/cp_model.h \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
@@ -1190,9 +1207,8 @@ CMakeFiles/SudokuApp.dir/main.cpp.o: ../main.cpp \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qlocale.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qvariant.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qguiapplication_platform.h \
-  ../mainwindow.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QMainWindow \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qmainwindow.h \
+  ../mainmenu.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QWidget \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qwidget.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qaction.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qkeysequence.h \
@@ -1204,19 +1220,38 @@ CMakeFiles/SudokuApp.dir/main.cpp.o: ../main.cpp \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qfontmetrics.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qfontinfo.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qsizepolicy.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtabwidget.h \
-  ../sudokuboard.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QWidget \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QPushButton \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qpushbutton.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractbutton.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qwidget.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QGridLayout \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qgridlayout.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QVBoxLayout \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qboxlayout.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qlayout.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qlayoutitem.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qboxlayout.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qgridlayout.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QComboBox \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qcombobox.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qstyleoption.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractspinbox.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qvalidator.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qregularexpression.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qslider.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractslider.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qstyle.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtabbar.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtabwidget.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qrubberband.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qframe.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qabstractitemmodel.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QSpinBox \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qspinbox.h \
+  ../sudokuboard.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QGridLayout \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qgridlayout.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QLineEdit \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qlineedit.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qframe.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtextcursor.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtextdocument.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qurl.h \
@@ -1227,7 +1262,6 @@ CMakeFiles/SudokuApp.dir/main.cpp.o: ../main.cpp \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qvector.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/QIntValidator \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qvalidator.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qregularexpression.h \
   /home/marc-antoine/Libraries/or-tools/include/ortools/sat/cp_model.h \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
@@ -1537,11 +1571,11 @@ CMakeFiles/SudokuApp.dir/main.cpp.o: ../main.cpp \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/QEvent \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcoreevent.h
 
-CMakeFiles/SudokuApp.dir/mainwindow.cpp.o: ../mainwindow.cpp \
+CMakeFiles/SudokuApp.dir/mainmenu.cpp.o: ../mainmenu.cpp \
   /usr/include/stdc-predef.h \
-  ../mainwindow.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QMainWindow \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qmainwindow.h \
+  ../mainmenu.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QWidget \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qwidget.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtguiglobal.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qglobal.h \
@@ -1719,7 +1753,6 @@ CMakeFiles/SudokuApp.dir/mainwindow.cpp.o: ../mainwindow.cpp \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtguiexports.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qwidget.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qwindowdefs.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qobjectdefs.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qnamespace.h \
@@ -1957,19 +1990,39 @@ CMakeFiles/SudokuApp.dir/mainwindow.cpp.o: ../mainwindow.cpp \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qsizepolicy.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qcursor.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qbitmap.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtabwidget.h \
-  ../sudokuboard.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QWidget \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QPushButton \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qpushbutton.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractbutton.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qwidget.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QGridLayout \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qgridlayout.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QVBoxLayout \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qboxlayout.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qlayout.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qlayoutitem.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qboxlayout.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qgridlayout.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QComboBox \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qcombobox.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qstyleoption.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qlocale.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractspinbox.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qvalidator.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qregularexpression.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qslider.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractslider.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qstyle.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtabbar.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtabwidget.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qrubberband.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qframe.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qabstractitemmodel.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QSpinBox \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qspinbox.h \
+  ../sudokuboard.h \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QGridLayout \
+  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qgridlayout.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QLineEdit \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qlineedit.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qframe.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtextcursor.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtextdocument.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qurl.h \
@@ -1980,8 +2033,6 @@ CMakeFiles/SudokuApp.dir/mainwindow.cpp.o: ../mainwindow.cpp \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qvector.h \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/QIntValidator \
   /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qvalidator.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qregularexpression.h \
-  /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qlocale.h \
   /home/marc-antoine/Libraries/or-tools/include/ortools/sat/cp_model.h \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
@@ -3541,12 +3592,6 @@ CMakeFiles/SudokuApp.dir/sudokucell.cpp.o: ../sudokucell.cpp \
 
 ../sudokucell.cpp:
 
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QVBoxLayout:
-
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractbutton.h:
-
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QPushButton:
-
 /usr/include/c++/11/bits/random.h:
 
 /usr/include/c++/11/random:
@@ -3773,8 +3818,6 @@ SudokuApp_autogen/EWIEGA46WW/moc_sudokucell.cpp:
 
 /home/marc-antoine/Libraries/or-tools/include/absl/synchronization/internal/per_thread_sem.h:
 
-/home/marc-antoine/Libraries/or-tools/include/absl/time/internal/cctz/include/cctz/civil_time_detail.h:
-
 /home/marc-antoine/Libraries/or-tools/include/absl/time/internal/cctz/include/cctz/civil_time.h:
 
 /home/marc-antoine/Libraries/or-tools/include/absl/time/civil_time.h:
@@ -3853,6 +3896,24 @@ SudokuApp_autogen/EWIEGA46WW/moc_sudokucell.cpp:
 
 /home/marc-antoine/Libraries/or-tools/include/absl/crc/internal/crc32c_inline.h:
 
+/home/marc-antoine/Libraries/or-tools/include/absl/crc/internal/crc_cord_state.h:
+
+/home/marc-antoine/Libraries/or-tools/include/absl/types/span.h:
+
+/home/marc-antoine/Libraries/or-tools/include/absl/base/internal/endian.h:
+
+/home/marc-antoine/Libraries/or-tools/include/absl/strings/cord.h:
+
+/usr/include/c++/11/bits/fs_ops.h:
+
+/home/marc-antoine/Libraries/or-tools/include/absl/flags/internal/registry.h:
+
+/usr/include/c++/11/bits/fs_dir.h:
+
+/usr/include/c++/11/bits/sstream.tcc:
+
+/usr/include/c++/11/bits/istream.tcc:
+
 /usr/include/c++/11/cstddef:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qpolygon.h:
@@ -3889,8 +3950,6 @@ SudokuApp_autogen/EWIEGA46WW/moc_sudokucell.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
-/usr/include/c++/11/ext/alloc_traits.h:
-
 /usr/include/sched.h:
 
 /usr/include/wctype.h:
@@ -3900,6 +3959,10 @@ SudokuApp_autogen/EWIEGA46WW/moc_sudokucell.cpp:
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qchar.h:
 
 /usr/include/c++/11/ext/concurrence.h:
+
+/home/marc-antoine/Libraries/or-tools/include/google/protobuf/thread_safe_arena.h:
+
+/usr/include/c++/11/bits/refwrap.h:
 
 /home/marc-antoine/Libraries/or-tools/include/absl/base/internal/errno_saver.h:
 
@@ -3916,14 +3979,6 @@ SudokuApp_autogen/EWIEGA46WW/moc_sudokucell.cpp:
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qpushbutton.h:
 
 /usr/include/c++/11/debug/assertions.h:
-
-/usr/include/c++/11/iosfwd:
-
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qassert.h:
-
-/usr/include/c++/11/initializer_list:
-
-/home/marc-antoine/Libraries/or-tools/include/absl/types/optional.h:
 
 /usr/include/c++/11/bits/memoryfwd.h:
 
@@ -3990,6 +4045,8 @@ SudokuApp_autogen/EWIEGA46WW/moc_sudokucell.cpp:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qswap.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QPushButton:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
@@ -4077,6 +4134,12 @@ SudokuApp_autogen/EWIEGA46WW/moc_sudokucell.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qscopedpointer.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/c++/11/bits/stl_bvector.h:
@@ -4123,19 +4186,29 @@ SudokuApp_autogen/EWIEGA46WW/moc_sudokucell.cpp:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qtypes.h:
 
-/usr/include/c++/11/bits/istream.tcc:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/c++/11/iterator:
 
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qassert.h:
+
+/usr/include/c++/11/iosfwd:
+
+/usr/include/c++/11/initializer_list:
+
+/home/marc-antoine/Libraries/or-tools/include/absl/types/optional.h:
+
 /usr/include/features.h:
 
 /home/marc-antoine/Libraries/or-tools/include/absl/base/internal/low_level_scheduling.h:
 
 /usr/include/c++/11/utility:
+
+/usr/include/c++/11/tr1/ell_integral.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
 
 /usr/include/c++/11/ios:
 
@@ -4191,15 +4264,13 @@ SudokuApp_autogen/EWIEGA46WW/moc_sudokucell.cpp:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qlogging.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
-
-/usr/include/c++/11/variant:
-
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qconfig.h:
-
 /usr/include/c++/11/bits/hash_bytes.h:
 
 /usr/include/c++/11/bits/move.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qconfig.h:
+
+/usr/include/c++/11/variant:
 
 /usr/include/pthread.h:
 
@@ -4209,57 +4280,11 @@ SudokuApp_autogen/EWIEGA46WW/moc_sudokucell.cpp:
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
 
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qprocessordetection.h:
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QWidget:
 
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qscopedpointer.h:
-
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qmainwindow.h:
-
-/usr/include/c++/11/cstdio:
-
-/usr/include/c++/11/bits/predefined_ops.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/usr/include/c++/11/tr1/ell_integral.tcc:
-
-SudokuApp_autogen/EWIEGA46WW/moc_mainwindow.cpp:
-
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcompilerdetection.h:
-
-/home/marc-antoine/Libraries/or-tools/include/absl/utility/utility.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtextcursor.h:
-
-/usr/include/c++/11/bits/exception.h:
-
-/usr/include/c++/11/bits/locale_facets.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
-
-/home/marc-antoine/Libraries/or-tools/include/absl/flags/internal/sequence_lock.h:
-
-/usr/include/c++/11/bits/exception_defines.h:
-
-/usr/include/c++/11/bits/enable_special_members.h:
-
-/home/marc-antoine/Libraries/or-tools/include/absl/base/internal/spinlock.h:
-
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qvarlengtharray.h:
-
-/home/marc-antoine/Libraries/or-tools/include/google/protobuf/string_block.h:
-
-/usr/include/c++/11/bits/codecvt.h:
+/usr/include/c++/11/bits/stl_algobase.h:
 
 /usr/include/c++/11/debug/debug.h:
 
@@ -4281,9 +4306,45 @@ SudokuApp_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qwidget.h:
 
-/home/marc-antoine/Libraries/or-tools/include/google/protobuf/thread_safe_arena.h:
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
-/usr/include/c++/11/bits/refwrap.h:
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qprocessordetection.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcompilerdetection.h:
+
+/home/marc-antoine/Libraries/or-tools/include/absl/utility/utility.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qtextcursor.h:
+
+/home/marc-antoine/Libraries/or-tools/include/absl/base/casts.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/c++/11/bits/exception.h:
+
+/usr/include/c++/11/bits/locale_facets.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+
+/home/marc-antoine/Libraries/or-tools/include/absl/flags/internal/sequence_lock.h:
+
+/usr/include/c++/11/bits/exception_defines.h:
+
+/usr/include/c++/11/bits/enable_special_members.h:
+
+/home/marc-antoine/Libraries/or-tools/include/absl/base/internal/spinlock.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qvarlengtharray.h:
+
+/home/marc-antoine/Libraries/or-tools/include/google/protobuf/string_block.h:
+
+/usr/include/c++/11/bits/codecvt.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/c++/11/pstl/execution_defs.h:
 
@@ -4296,10 +4357,6 @@ SudokuApp_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qtconfiginclude.h:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qlayout.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/c++/11/bits/range_access.h:
 
@@ -4357,8 +4414,6 @@ SudokuApp_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
-/usr/include/c++/11/string_view:
-
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qobject.h:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qcompare_impl.h:
@@ -4375,17 +4430,27 @@ SudokuApp_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qtaggedpointer.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
-
 /usr/include/c++/11/bits/forward_list.h:
-
-/usr/include/c++/11/bits/stl_algobase.h:
-
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QWidget:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
-/home/marc-antoine/Libraries/or-tools/include/absl/types/span.h:
+/home/marc-antoine/Libraries/or-tools/include/absl/container/internal/inlined_vector.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qtversionchecks.h:
+
+/usr/include/c++/11/atomic:
+
+SudokuApp_autogen/EWIEGA46WW/moc_mainmenu.cpp:
+
+/usr/include/c++/11/stdlib.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qscreen_platform.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qrgb.h:
+
+/home/marc-antoine/Libraries/or-tools/include/absl/log/internal/config.h:
+
+/home/marc-antoine/Libraries/or-tools/include/absl/base/attributes.h:
 
 /usr/include/c++/11/bits/functional_hash.h:
 
@@ -4393,15 +4458,25 @@ SudokuApp_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /home/marc-antoine/Libraries/or-tools/include/absl/hash/internal/hash.h:
 
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QComboBox:
+
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/c++/11/bits/invoke.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
+/home/marc-antoine/Libraries/or-tools/include/absl/time/internal/cctz/include/cctz/civil_time_detail.h:
+
+../mainmenu.h:
+
+/usr/include/locale.h:
+
 /usr/include/c++/11/bits/parse_numbers.h:
 
 /usr/include/c++/11/pstl/glue_memory_defs.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qstyle.h:
 
 /usr/include/c++/11/forward_list:
 
@@ -4412,6 +4487,12 @@ SudokuApp_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qsizepolicy.h:
+
+/usr/include/c++/11/codecvt:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
+
+/usr/include/assert.h:
 
 /usr/include/c++/11/bits/basic_ios.tcc:
 
@@ -4433,6 +4514,8 @@ SudokuApp_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qpair.h:
 
+/usr/include/c++/11/bits/vector.tcc:
+
 /usr/include/c++/11/optional:
 
 /home/marc-antoine/Libraries/or-tools/include/absl/base/internal/dynamic_annotations.h:
@@ -4442,12 +4525,6 @@ SudokuApp_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 /home/marc-antoine/Libraries/or-tools/include/absl/strings/internal/cordz_update_scope.h:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qlatin1stringview.h:
-
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qtversionchecks.h:
-
-/usr/include/c++/11/atomic:
-
-/home/marc-antoine/Libraries/or-tools/include/absl/container/internal/inlined_vector.h:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qinputmethod.h:
 
@@ -4467,9 +4544,11 @@ SudokuApp_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /usr/include/c++/11/climits:
 
-/usr/include/c++/11/bits/sstream.tcc:
-
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qobjectdefs_impl.h:
+
+/usr/include/c++/11/bits/predefined_ops.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/c++/11/bits/uses_allocator.h:
 
@@ -4487,13 +4566,13 @@ SudokuApp_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qatomic.h:
 
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtabbar.h:
+
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qatomic_cxx11.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qstringmatcher.h:
-
-/home/marc-antoine/Libraries/or-tools/include/absl/strings/cord.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
@@ -4519,7 +4598,15 @@ SudokuApp_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qpixelformat.h:
 
+/home/marc-antoine/Libraries/or-tools/include/absl/log/internal/conditions.h:
+
+../sudokuboard.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
+
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qnumeric.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractitemdelegate.h:
 
 /usr/include/c++/11/tr1/legendre_function.tcc:
 
@@ -4530,14 +4617,6 @@ SudokuApp_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/c++/11/bits/vector.tcc:
-
-/home/marc-antoine/Libraries/or-tools/include/absl/log/internal/conditions.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
-
-../sudokuboard.h:
 
 /usr/include/c++/11/bits/stl_algo.h:
 
@@ -4567,17 +4646,7 @@ SudokuApp_autogen/mocs_compilation.cpp:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qicon.h:
 
-/usr/include/c++/11/bits/allocated_ptr.h:
-
-/usr/include/assert.h:
-
-/usr/include/c++/11/codecvt:
-
 /usr/include/strings.h:
-
-/usr/include/c++/11/cinttypes:
-
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qregularexpression.h:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qarraydatapointer.h:
 
@@ -4611,8 +4680,6 @@ SudokuApp_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/11/clocale:
 
-/usr/include/locale.h:
-
 /usr/include/c++/11/cctype:
 
 /usr/include/c++/11/iomanip:
@@ -4622,6 +4689,8 @@ SudokuApp_autogen/mocs_compilation.cpp:
 /usr/include/ctype.h:
 
 /usr/include/c++/11/locale:
+
+../mainmenu.cpp:
 
 /usr/include/c++/11/bits/ios_base.h:
 
@@ -4637,6 +4706,10 @@ SudokuApp_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/11/bits/string_view.tcc:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qspinbox.h:
+
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/c++/11/ext/string_conversions.h:
@@ -4644,6 +4717,8 @@ SudokuApp_autogen/mocs_compilation.cpp:
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qminmax.h:
 
 /home/marc-antoine/Libraries/or-tools/include/absl/functional/internal/any_invocable.h:
+
+/usr/include/c++/11/cstdio:
 
 /home/marc-antoine/Libraries/or-tools/include/absl/strings/internal/stringify_sink.h:
 
@@ -4668,6 +4743,8 @@ SudokuApp_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qstyleoption.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
@@ -4709,16 +4786,6 @@ SudokuApp_autogen/mocs_compilation.cpp:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/q20type_traits.h:
 
-/usr/include/c++/11/stdlib.h:
-
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qscreen_platform.h:
-
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qrgb.h:
-
-/home/marc-antoine/Libraries/or-tools/include/absl/log/internal/config.h:
-
-/home/marc-antoine/Libraries/or-tools/include/absl/base/attributes.h:
-
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qutf8stringview.h:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qbasicatomic.h:
@@ -4742,8 +4809,6 @@ SudokuApp_autogen/mocs_compilation.cpp:
 /home/marc-antoine/Libraries/or-tools/include/google/protobuf/arena_cleanup.h:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qhashfunctions.h:
-
-../mainwindow.h:
 
 /usr/include/c++/11/numeric:
 
@@ -4833,6 +4898,10 @@ SudokuApp_autogen/EWIEGA46WW/moc_sudokuboard.cpp:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qmargins.h:
 
+/home/marc-antoine/Libraries/or-tools/include/absl/types/internal/span.h:
+
+/usr/include/c++/11/sstream:
+
 /home/marc-antoine/Libraries/or-tools/include/absl/strings/internal/cord_rep_btree_reader.h:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qpaintdevice.h:
@@ -4842,6 +4911,8 @@ SudokuApp_autogen/EWIEGA46WW/moc_sudokuboard.cpp:
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qsharedpointer.h:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qpoint.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractbutton.h:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qcolor.h:
 
@@ -4927,25 +4998,45 @@ SudokuApp_autogen/EWIEGA46WW/moc_sudokuboard.cpp:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qbitmap.h:
 
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QVBoxLayout:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qboxlayout.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qgridlayout.h:
+
+/usr/include/c++/11/ext/alloc_traits.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qcombobox.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractspinbox.h:
+
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qtabwidget.h:
 
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qgridlayout.h:
+/usr/include/c++/11/cinttypes:
 
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qboxlayout.h:
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qregularexpression.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qrubberband.h:
+
+/usr/include/c++/11/string_view:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qabstractitemmodel.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QSpinBox:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QLineEdit:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qabstractslider.h:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qlineedit.h:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qurl.h:
 
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtGui/qpen.h:
-
-../mainwindow.cpp:
 
 /usr/include/c++/11/ext/aligned_buffer.h:
 
@@ -4974,8 +5065,6 @@ SudokuApp_autogen/EWIEGA46WW/moc_sudokuboard.cpp:
 /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtCore/qglobal.h:
 
 /home/marc-antoine/Libraries/or-tools/include/absl/algorithm/container.h:
-
-/home/marc-antoine/Libraries/or-tools/include/absl/crc/internal/crc_cord_state.h:
 
 /home/marc-antoine/Libraries/or-tools/include/absl/container/inlined_vector.h:
 
@@ -5010,6 +5099,8 @@ SudokuApp_autogen/EWIEGA46WW/moc_sudokuboard.cpp:
 /home/marc-antoine/Libraries/or-tools/include/absl/container/internal/hash_function_defaults.h:
 
 /home/marc-antoine/Libraries/or-tools/include/absl/hash/hash.h:
+
+/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/qslider.h:
 
 /home/marc-antoine/Libraries/or-tools/include/absl/functional/function_ref.h:
 
@@ -5051,8 +5142,6 @@ SudokuApp_autogen/EWIEGA46WW/moc_sudokuboard.cpp:
 
 /home/marc-antoine/Libraries/or-tools/include/absl/strings/string_view.h:
 
-/home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/include/QtWidgets/QMainWindow:
-
 /usr/include/c++/11/bits/locale_conv.h:
 
 /home/marc-antoine/Libraries/or-tools/include/absl/functional/internal/function_ref.h:
@@ -5072,19 +5161,3 @@ SudokuApp_autogen/EWIEGA46WW/moc_sudokuboard.cpp:
 /usr/include/libintl.h:
 
 /usr/include/c++/11/bits/quoted_string.h:
-
-/home/marc-antoine/Libraries/or-tools/include/absl/flags/internal/registry.h:
-
-/usr/include/c++/11/bits/fs_dir.h:
-
-/usr/include/c++/11/bits/fs_ops.h:
-
-/home/marc-antoine/Libraries/or-tools/include/absl/base/internal/endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/home/marc-antoine/Libraries/or-tools/include/absl/base/casts.h:
-
-/usr/include/c++/11/sstream:
-
-/home/marc-antoine/Libraries/or-tools/include/absl/types/internal/span.h:

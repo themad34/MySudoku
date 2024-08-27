@@ -190,29 +190,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SudokuApp.dir/build.make CMakeFiles/SudokuApp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-mainwindow.o: mainwindow.cpp.o
-.PHONY : mainwindow.o
+mainmenu.o: mainmenu.cpp.o
+.PHONY : mainmenu.o
 
 # target to build an object file
-mainwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SudokuApp.dir/build.make CMakeFiles/SudokuApp.dir/mainwindow.cpp.o
-.PHONY : mainwindow.cpp.o
+mainmenu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SudokuApp.dir/build.make CMakeFiles/SudokuApp.dir/mainmenu.cpp.o
+.PHONY : mainmenu.cpp.o
 
-mainwindow.i: mainwindow.cpp.i
-.PHONY : mainwindow.i
+mainmenu.i: mainmenu.cpp.i
+.PHONY : mainmenu.i
 
 # target to preprocess a source file
-mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SudokuApp.dir/build.make CMakeFiles/SudokuApp.dir/mainwindow.cpp.i
-.PHONY : mainwindow.cpp.i
+mainmenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SudokuApp.dir/build.make CMakeFiles/SudokuApp.dir/mainmenu.cpp.i
+.PHONY : mainmenu.cpp.i
 
-mainwindow.s: mainwindow.cpp.s
-.PHONY : mainwindow.s
+mainmenu.s: mainmenu.cpp.s
+.PHONY : mainmenu.s
 
 # target to generate assembly for a file
-mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SudokuApp.dir/build.make CMakeFiles/SudokuApp.dir/mainwindow.cpp.s
-.PHONY : mainwindow.cpp.s
+mainmenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SudokuApp.dir/build.make CMakeFiles/SudokuApp.dir/mainmenu.cpp.s
+.PHONY : mainmenu.cpp.s
 
 sudokuboard.o: sudokuboard.cpp.o
 .PHONY : sudokuboard.o
@@ -278,9 +278,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mainwindow.o"
-	@echo "... mainwindow.i"
-	@echo "... mainwindow.s"
+	@echo "... mainmenu.o"
+	@echo "... mainmenu.i"
+	@echo "... mainmenu.s"
 	@echo "... sudokuboard.o"
 	@echo "... sudokuboard.i"
 	@echo "... sudokuboard.s"

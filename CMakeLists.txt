@@ -11,7 +11,7 @@ find_package(ortools REQUIRED CONFIG)
 
 set(CMAKE_AUTOMOC ON)
 
-add_executable(SudokuApp main.cpp mainwindow.cpp sudokuboard.cpp sudokucell.cpp)
+add_executable(SudokuApp main.cpp sudokuboard.cpp sudokucell.cpp mainmenu.cpp)
 
 target_include_directories(SudokuApp PRIVATE ${Qt6Widgets_INCLUDE_DIRS})
 

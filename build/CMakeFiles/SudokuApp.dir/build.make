@@ -97,24 +97,10 @@ CMakeFiles/SudokuApp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SudokuApp.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc-antoine/C++/MySudoku/main.cpp -o CMakeFiles/SudokuApp.dir/main.cpp.s
 
-CMakeFiles/SudokuApp.dir/mainwindow.cpp.o: CMakeFiles/SudokuApp.dir/flags.make
-CMakeFiles/SudokuApp.dir/mainwindow.cpp.o: ../mainwindow.cpp
-CMakeFiles/SudokuApp.dir/mainwindow.cpp.o: CMakeFiles/SudokuApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc-antoine/C++/MySudoku/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SudokuApp.dir/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SudokuApp.dir/mainwindow.cpp.o -MF CMakeFiles/SudokuApp.dir/mainwindow.cpp.o.d -o CMakeFiles/SudokuApp.dir/mainwindow.cpp.o -c /home/marc-antoine/C++/MySudoku/mainwindow.cpp
-
-CMakeFiles/SudokuApp.dir/mainwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SudokuApp.dir/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc-antoine/C++/MySudoku/mainwindow.cpp > CMakeFiles/SudokuApp.dir/mainwindow.cpp.i
-
-CMakeFiles/SudokuApp.dir/mainwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SudokuApp.dir/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc-antoine/C++/MySudoku/mainwindow.cpp -o CMakeFiles/SudokuApp.dir/mainwindow.cpp.s
-
 CMakeFiles/SudokuApp.dir/sudokuboard.cpp.o: CMakeFiles/SudokuApp.dir/flags.make
 CMakeFiles/SudokuApp.dir/sudokuboard.cpp.o: ../sudokuboard.cpp
 CMakeFiles/SudokuApp.dir/sudokuboard.cpp.o: CMakeFiles/SudokuApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc-antoine/C++/MySudoku/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SudokuApp.dir/sudokuboard.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc-antoine/C++/MySudoku/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SudokuApp.dir/sudokuboard.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SudokuApp.dir/sudokuboard.cpp.o -MF CMakeFiles/SudokuApp.dir/sudokuboard.cpp.o.d -o CMakeFiles/SudokuApp.dir/sudokuboard.cpp.o -c /home/marc-antoine/C++/MySudoku/sudokuboard.cpp
 
 CMakeFiles/SudokuApp.dir/sudokuboard.cpp.i: cmake_force
@@ -128,7 +114,7 @@ CMakeFiles/SudokuApp.dir/sudokuboard.cpp.s: cmake_force
 CMakeFiles/SudokuApp.dir/sudokucell.cpp.o: CMakeFiles/SudokuApp.dir/flags.make
 CMakeFiles/SudokuApp.dir/sudokucell.cpp.o: ../sudokucell.cpp
 CMakeFiles/SudokuApp.dir/sudokucell.cpp.o: CMakeFiles/SudokuApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc-antoine/C++/MySudoku/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SudokuApp.dir/sudokucell.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc-antoine/C++/MySudoku/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SudokuApp.dir/sudokucell.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SudokuApp.dir/sudokucell.cpp.o -MF CMakeFiles/SudokuApp.dir/sudokucell.cpp.o.d -o CMakeFiles/SudokuApp.dir/sudokucell.cpp.o -c /home/marc-antoine/C++/MySudoku/sudokucell.cpp
 
 CMakeFiles/SudokuApp.dir/sudokucell.cpp.i: cmake_force
@@ -139,22 +125,36 @@ CMakeFiles/SudokuApp.dir/sudokucell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SudokuApp.dir/sudokucell.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc-antoine/C++/MySudoku/sudokucell.cpp -o CMakeFiles/SudokuApp.dir/sudokucell.cpp.s
 
+CMakeFiles/SudokuApp.dir/mainmenu.cpp.o: CMakeFiles/SudokuApp.dir/flags.make
+CMakeFiles/SudokuApp.dir/mainmenu.cpp.o: ../mainmenu.cpp
+CMakeFiles/SudokuApp.dir/mainmenu.cpp.o: CMakeFiles/SudokuApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc-antoine/C++/MySudoku/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SudokuApp.dir/mainmenu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SudokuApp.dir/mainmenu.cpp.o -MF CMakeFiles/SudokuApp.dir/mainmenu.cpp.o.d -o CMakeFiles/SudokuApp.dir/mainmenu.cpp.o -c /home/marc-antoine/C++/MySudoku/mainmenu.cpp
+
+CMakeFiles/SudokuApp.dir/mainmenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SudokuApp.dir/mainmenu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc-antoine/C++/MySudoku/mainmenu.cpp > CMakeFiles/SudokuApp.dir/mainmenu.cpp.i
+
+CMakeFiles/SudokuApp.dir/mainmenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SudokuApp.dir/mainmenu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc-antoine/C++/MySudoku/mainmenu.cpp -o CMakeFiles/SudokuApp.dir/mainmenu.cpp.s
+
 # Object files for target SudokuApp
 SudokuApp_OBJECTS = \
 "CMakeFiles/SudokuApp.dir/SudokuApp_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/SudokuApp.dir/main.cpp.o" \
-"CMakeFiles/SudokuApp.dir/mainwindow.cpp.o" \
 "CMakeFiles/SudokuApp.dir/sudokuboard.cpp.o" \
-"CMakeFiles/SudokuApp.dir/sudokucell.cpp.o"
+"CMakeFiles/SudokuApp.dir/sudokucell.cpp.o" \
+"CMakeFiles/SudokuApp.dir/mainmenu.cpp.o"
 
 # External object files for target SudokuApp
 SudokuApp_EXTERNAL_OBJECTS =
 
 SudokuApp: CMakeFiles/SudokuApp.dir/SudokuApp_autogen/mocs_compilation.cpp.o
 SudokuApp: CMakeFiles/SudokuApp.dir/main.cpp.o
-SudokuApp: CMakeFiles/SudokuApp.dir/mainwindow.cpp.o
 SudokuApp: CMakeFiles/SudokuApp.dir/sudokuboard.cpp.o
 SudokuApp: CMakeFiles/SudokuApp.dir/sudokucell.cpp.o
+SudokuApp: CMakeFiles/SudokuApp.dir/mainmenu.cpp.o
 SudokuApp: CMakeFiles/SudokuApp.dir/build.make
 SudokuApp: /home/marc-antoine/Libraries/Qt/6.7.2/gcc_64/lib/libQt6Widgets.so.6.7.2
 SudokuApp: /home/marc-antoine/Libraries/or-tools/lib/libortools.so.9.10.4067

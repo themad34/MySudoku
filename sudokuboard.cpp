@@ -23,11 +23,9 @@ using namespace std;
 using namespace operations_research;
 using namespace operations_research::sat;
 
-SudokuBoard::SudokuBoard(QWidget *parent)
-    : QWidget(parent), size(9), cells(size, QVector<SudokuCell*>(size, nullptr)) {
-    //setLayout(gridLayout);
-
-
+SudokuBoard::SudokuBoard(int s, int fillPercentage)
+    : QWidget(), size(s), cells(size, QVector<SudokuCell*>(size, nullptr)) {
+   
     QVBoxLayout *mainLayout = new QVBoxLayout(this);
     gridLayout = new QGridLayout();
 
@@ -72,7 +70,7 @@ SudokuBoard::SudokuBoard(QWidget *parent)
         }
     }
 
-
+   
     gridLayout->setSpacing(0);
     gridLayout->setContentsMargins(10, 10, 10, 10);
 
@@ -84,9 +82,10 @@ SudokuBoard::SudokuBoard(QWidget *parent)
 
     setLayout(mainLayout);
 
-
+    
     //Pré-remplissage de la grille
-    prefillBoard(50);
+    prefillBoard(fillPercentage);
+    
 
 }
 
@@ -283,8 +282,10 @@ void SudokuBoard::completeGrid() {
     }
 }
 
-void SudokuBoard::prefillBoard(int nFilled) {
+void SudokuBoard::prefillBoard(int percentage) {
 
+    
+    int nFilled = (size * size) * percentage / 100;
     vector<vector<int>> grid(size, vector<int>(size));
 
     vector<int> values1(size);
@@ -304,22 +305,26 @@ void SudokuBoard::prefillBoard(int nFilled) {
             grid[row][col] = values1[row * subsize + col];
         }
     }
-
-    for (int row = size - subsize; row < size; ++row) {
-        for (int col = size - subsize; col < size; ++col) {
-            grid[row][col] = values2[(row - size + subsize) * subsize + (col - size + subsize)];
+    if (size > 4) {
+        for (int row = size - subsize; row < size; ++row) {
+            for (int col = size - subsize; col < size; ++col) {
+                grid[row][col] = values2[(row - size + subsize) * subsize + (col - size + subsize)];
+            }
         }
     }
-
+    
     SolverOutput s = solve(grid);
-
+    
+    
     for (int row = 0; row < size; ++row) {
         for (int col = 0; col < size; ++col) {
+            
             grid[row][col] = SolutionIntegerValue(s.response, s.vars[row][col]);
         }
         
     }
 
+    
     int toRemove = size * size - nFilled;
     int r1, r2;
 
@@ -354,6 +359,7 @@ void SudokuBoard::prefillBoard(int nFilled) {
             }
         }
     }
+
 }
 
 void SudokuBoard::highlightCells(QString value) {
